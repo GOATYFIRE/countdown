@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Permanent Marker", system-ui;
+}
+
+body {
+    background-image: url(xenomorph\ 2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 60px;
+    margin: -150px 0 40px;
+    color: rgba(195, 222, 18, 0.753);
+    text-shadow: -7.3px -9px 0 #432b07d5, 3px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.countdown {
+    display: flex;
+    transform: scale(2);
+    font-size: 60px;
+    word-spacing: 30px;
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 19px;
+    color: rgba(195, 222, 18, 0.753);
+    text-shadow: -4.3px -1px 0 #432b07d5, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+.time h2 {
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0 0 5px;
+    line-height: 1;
+}
+
+@media(max-width:500px) {
+    h1 {
+        font-size: 45px;
+    }
+    .time {
+        margin: 5px;
+    }
+    .time h2 {
+        font-size: 12px;
+    }
+    .time small {
+        font-size: 10PX;
+    }
+}
